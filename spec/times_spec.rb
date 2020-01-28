@@ -9,12 +9,9 @@ describe "#using_times" do
 	end
 end
 
-counter = 0
+using_times = 0
 
-loop do
-  counter += 1 
+7.times do
   puts "Wingardium Leviosa"
-  if counter <= 7
-    break
- end
 end
+   
