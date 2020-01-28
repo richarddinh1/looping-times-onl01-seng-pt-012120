@@ -8,3 +8,12 @@ describe "#using_times" do
 	expect{ using_times }.to output(looping_string).to_stdout 
 	end
 end
+
+counter = 0
+
+loop do
+  counter += 1 
+  puts "Wingardium Leviosa"
+  if counter <= 7
+ end
+end
